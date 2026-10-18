@@ -1,0 +1,177 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #173323;
+    background-color: #e8f0e6;
+    background-image: linear-gradient(
+        rgba(240, 248, 240, 0.90),
+        rgba(240, 248, 240, 0.90)
+    ), url("images/nature-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Header */
+header {
+    background-color: #174d35;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0 0 12px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #347b55;
+    text-decoration: underline;
+}
+
+nav a:focus-visible {
+    outline: 3px solid #ffd966;
+    outline-offset: 3px;
+}
+
+nav a.current {
+    background-color: #ffffff;
+    color: #174d35;
+    font-weight: bold;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    width: 92%;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.96);
+    border-radius: 10px;
+}
+
+h2 {
+    color: #174d35;
+}
+
+h3 {
+    color: #236343;
+}
+
+section {
+    margin: 25px 0;
+}
+
+.welcome {
+    margin-top: 0;
+}
+
+/* Format cards on the home page */
+.format-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 18px;
+}
+
+.format-card {
+    padding: 18px;
+    border: 1px solid #9ab8a1;
+    border-radius: 8px;
+    background-color: #f3f8f2;
+}
+
+.format-card h3 {
+    margin-top: 0;
+}
+
+a {
+    color: #155d38;
+}
+
+.format-card a {
+    display: inline-block;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+/* Images */
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+figure img {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    max-height: 450px;
+    object-fit: contain;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+figcaption {
+    margin-top: 8px;
+    font-style: italic;
+}
+
+/* Footer */
+footer {
+    padding: 18px;
+    text-align: center;
+    background-color: #174d35;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Smaller screens */
+@media (max-width: 600px) {
+    header {
+        padding: 16px 10px;
+    }
+
+    nav ul {
+        gap: 4px;
+    }
+
+    nav a {
+        padding: 8px;
+    }
+
+    main {
+        width: 94%;
+        padding: 16px;
+        margin: 18px auto;
+    }
+}
