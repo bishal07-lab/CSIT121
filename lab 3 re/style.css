@@ -1,0 +1,84 @@
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #243b55;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+#site-title {
+    margin: 0;
+    font-size: 32px;
+}
+
+/* Main content styling */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Blog post styling */
+.post {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    border: 1px solid #dddddd;
+}
+
+/* Heading styling */
+h2 {
+    color: #243b55;
+    border-bottom: 2px solid #243b55;
+    padding-bottom: 8px;
+}
+
+h3 {
+    color: #365f91;
+}
+
+/* Published information */
+.published {
+    color: #777777;
+    font-size: 14px;
+}
+
+/* List styling */
+ol, ul {
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Link styling */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #cc5500;
+}
+
+/* Footer styling */
+footer {
+    background-color: #243b55;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
