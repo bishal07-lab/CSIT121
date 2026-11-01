@@ -1,59 +1,186 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Images of Nature</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <title>Learning Web Standards</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
     <header>
-        <h1>Images of Nature</h1>
-        <nav aria-label="Main navigation">
-            <ul>
-                <li><a href="index.html" class="current" aria-current="page">Home</a></li>
-                <li><a href="jpg.html">JPG Example</a></li>
-                <li><a href="png.html">PNG Example</a></li>
-                <li><a href="gif.html">GIF Example</a></li>
-            </ul>
-        </nav>
+        <h1 id="site-title">Learning Web Standards</h1>
+        <p>My Journey in Learning Web Development</p>
     </header>
 
+    <nav>
+        <ul>
+            <li><a href="#lab12">Labs 1 &amp; 2</a></li>
+            <li><a href="#lab3">Lab 3</a></li>
+            <li><a href="#lab6">Lab 6</a></li>
+        </ul>
+    </nav>
+
     <main>
-        <section class="welcome">
-            <h2>Discover the Beauty of Nature</h2>
-            <p>Welcome to my Images of Nature website. Nature has many beautiful colors, patterns, plants, and landscapes. This website explores three common image formats and explains how each format can be useful for displaying nature images on the web.</p>
-            <p>Explore the JPG, PNG, and GIF pages to learn about their features and uses.</p>
-        </section>
 
-        <section>
-            <h2>Explore the Image Formats</h2>
-            <div class="format-grid">
-                <article class="format-card">
-                    <h3>JPG Photography</h3>
-                    <p>JPG is useful for colorful photographs of forests, mountains, and landscapes.</p>
-                    <a href="jpg.html">Explore JPG</a>
-                </article>
+        <article class="post" id="lab12">
+            <h2>Labs 1 &amp; 2</h2>
 
-                <article class="format-card">
-                    <h3>PNG Graphics</h3>
-                    <p>PNG works well for clear graphics, sharp edges, and images with transparency.</p>
-                    <a href="png.html">Explore PNG</a>
-                </article>
+            <p class="published">
+                <em>Published on October 2, 2026 by Bishal Budhathoki</em>
+            </p>
 
-                <article class="format-card">
-                    <h3>GIF Animation</h3>
-                    <p>GIF supports simple animations, such as a flower moving in the breeze.</p>
-                    <a href="gif.html">Explore GIF</a>
-                </article>
-            </div>
-        </section>
+            <p>
+                My first webpage of my life. I was too excited and nervous
+                at the same time. The process was challenging but interesting
+                as I had no idea about VS Code and GitHub. But learning HTML
+                step by step helped me learn more and finally build my first webpage.
+            </p>
+
+            <section>
+                <h3>What I Learned</h3>
+
+                <ol>
+                    <li>HTML structure, semantics, and syntax</li>
+                    <li>VS Code basics</li>
+                    <li>GitHub fundamentals</li>
+                </ol>
+
+                <p>
+                    Learning about HTML, VS Code, and GitHub was another
+                    exciting step. I learned a lot from:
+                </p>
+
+                <ul>
+                    <li>
+                        <a href="https://www.w3schools.com/html/">
+                            W3Schools HTML Tutorial
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+                            MDN HTML Documentation
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </article>
+
+        <article class="post" id="lab3">
+            <h2>Lab 3</h2>
+
+            <p class="published">
+                <em>Published on October 3, 2026 by Bishal Budhathoki</em>
+            </p>
+
+            <p>
+                In this lab, I added style to my webpage for the first time.
+                Seeing plain HTML turn into a colorful and organized page
+                made the work feel much more interesting. I learned how CSS
+                can improve the appearance of a website.
+            </p>
+
+            <section>
+                <h3>What I Learned</h3>
+
+                <ol>
+                    <li>Linking an external stylesheet using the link element</li>
+                    <li>Writing CSS rules for elements, classes, and IDs</li>
+                    <li>Using colors, fonts, margins, and padding</li>
+                    <li>Validating HTML and CSS with W3C tools</li>
+                </ol>
+
+                <p>
+                    I also learned that keeping content in HTML and design
+                    in CSS makes a webpage easier to manage and update.
+                    These resources helped me:
+                </p>
+
+                <ul>
+                    <li>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+                            MDN CSS Documentation
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.w3schools.com/css/">
+                            W3Schools CSS Tutorial
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </article>
+
+        <article class="post" id="lab6">
+            <h2>Lab 6</h2>
+
+            <p class="published">
+                <em>Published on October 30, 2026 by Bishal Budhathoki</em>
+            </p>
+
+            <p>
+                In this lab, I learned how to make a website responsive
+                so it can work properly on different screen sizes.
+                I learned that a website should look organized on both
+                mobile phones and desktop computers. I also added
+                navigation links that allow users to jump directly
+                to different blog posts.
+            </p>
+
+            <section>
+                <h3>What I Learned</h3>
+
+                <ol>
+                    <li>Creating responsive layouts using CSS Grid</li>
+                    <li>Using media queries for different screen sizes</li>
+                    <li>Creating internal navigation with anchor links</li>
+                    <li>Adjusting font sizes, spacing, and layouts for mobile devices</li>
+                </ol>
+
+                <p>
+                    One important thing I learned is that responsive
+                    design makes websites easier to use on different
+                    devices. These resources helped me:
+                </p>
+
+                <ul>
+                    <li>
+                        <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design">
+                            MDN Responsive Design
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.w3schools.com/css/css_rwd_mediaqueries.asp">
+                            W3Schools CSS Media Queries
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Best Design Practices</h3>
+
+                <p>
+                    I learned that good web design is not only about
+                    making a website look attractive but also about
+                    making it easy to use. A good website should have
+                    clear navigation, readable fonts, proper spacing,
+                    and colors that are easy on the eyes. It is also
+                    important to make sure that all users can access
+                    the content on different devices. I believe that
+                    keeping a website simple, organized, and responsive
+                    creates a better experience for visitors.
+                </p>
+            </section>
+        </article>
+
     </main>
 
     <footer>
-        <p>&copy; 2026 Bishal Budhathoki - CSIT 121</p>
+        <p>&copy; 2026 Bishal Budhathoki. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
