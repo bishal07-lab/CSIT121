@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccer Players Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Soccer Players Contact Form</h1>
+        <p>Share your opinions about my soccer players tier list.</p>
+    </header>
+
+    <nav>
+        <a href="tierlist.html">Tier List</a>
+        <a href="contact.html">Contact Form</a>
+    </nav>
+
+    <main>
+        <h2>Tell Me Your Opinion</h2>
+
+        <p>
+            Complete this form to share your favorite soccer player
+            and your thoughts about my rankings.
+        </p>
+
+        <form action="#" method="get" onsubmit="return false;">
+
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Soccer Player Questions</legend>
+
+                <label for="player">1. Who is your favorite soccer player?</label>
+
+                <select id="player" name="player">
+                    <option value="">Select a player</option>
+                    <option value="Lionel Messi">Lionel Messi</option>
+                    <option value="Cristiano Ronaldo">Cristiano Ronaldo</option>
+                    <option value="Neymar">Neymar Jr.</option>
+                    <option value="Mbappe">Kylian Mbappé</option>
+                    <option value="Haaland">Erling Haaland</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <p>2. How would you rate my soccer players tier list?</p>
+
+                <div class="choice">
+                    <input type="radio" id="excellent" name="rating" value="Excellent">
+                    <label for="excellent">Excellent</label>
+                </div>
+
+                <div class="choice">
+                    <input type="radio" id="good" name="rating" value="Good">
+                    <label for="good">Good</label>
+                </div>
+
+                <div class="choice">
+                    <input type="radio" id="average" name="rating" value="Average">
+                    <label for="average">Average</label>
+                </div>
+
+                <div class="choice">
+                    <input type="radio" id="poor" name="rating" value="Poor">
+                    <label for="poor">Poor</label>
+                </div>
+
+                <p>3. What qualities make a soccer player great?</p>
+
+                <div class="choice">
+                    <input type="checkbox" id="skills" name="qualities" value="Skills">
+                    <label for="skills">Dribbling and technical skills</label>
+                </div>
+
+                <div class="choice">
+                    <input type="checkbox" id="speed" name="qualities" value="Speed">
+                    <label for="speed">Speed and physical ability</label>
+                </div>
+
+                <div class="choice">
+                    <input type="checkbox" id="scoring" name="qualities" value="Scoring">
+                    <label for="scoring">Goal scoring ability</label>
+                </div>
+
+                <div class="choice">
+                    <input type="checkbox" id="teamwork" name="qualities" value="Teamwork">
+                    <label for="teamwork">Teamwork and leadership</label>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Comments</legend>
+
+                <label for="comments">
+                    Share your thoughts or suggest changes to my rankings:
+                </label>
+
+                <textarea id="comments" name="comments"
+                          rows="5"
+                          placeholder="Write your comments here..."></textarea>
+            </fieldset>
+
+            <button type="submit">Submit Form</button>
+
+            <p class="note">
+                Note: This is an example form for Lab 07.
+                It does not submit or save any information.
+            </p>
+
+        </form>
+    </main>
+
+    <footer>
+        <p>CSIT 121 - Lab 07 | Bishal Budhathoki | Soccer Contact Page</p>
+    </footer>
+
+</body>
+</html>
